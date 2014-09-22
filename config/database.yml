@@ -1,0 +1,19 @@
+connection: &connection
+  adapter: postgresql
+  host: localhost
+  username: postgres
+  password: yannick
+  encoding: utf8
+  min_messages: warning #magic sauce
+
+development:
+  database: boutwik_development
+  <<: *connection
+
+test:
+  database: boutwik_test
+  <<: *connection
+
+production:
+  database: boutwik_production
+  <<: *connection

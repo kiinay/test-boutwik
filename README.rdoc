@@ -1,0 +1,22 @@
+== Getting Started
+
+0. supposing you already:
+  * have installed the proper ruby version (as per Gemfile specification)
+  * have cloned the repository
+
+1. install the gems (via bundler)
+  * install bundler:
+
+      $ gem install bundler
+
+  * install the gems:
+
+      $ bundle install
+
+2.* start the server using rails server (ctrl-C to stop)
+
+      $ rails s
+
+  * change the default port with -p
+
+      $ rails s -p <your_port>
