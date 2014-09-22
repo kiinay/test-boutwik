@@ -10,7 +10,9 @@ gem 'pg'
 group :assets do
   gem 'haml-rails'
   gem 'sass-rails'
-  gem 'sass-twitter-bootstrap-rails'
+  gem 'compass'
+  gem 'bootstrap-sass'
+  gem 'autoprefixer-rails'
   gem 'coffee-rails'
   gem 'therubyracer', :platforms => :ruby
   gem 'uglifier', '>= 1.0.3'
